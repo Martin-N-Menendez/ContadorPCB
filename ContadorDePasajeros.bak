@@ -31,7 +31,7 @@ U 1 1 5BA7DBAB
 P 2650 1400
 F 0 "R_RST1" H 2720 1446 50  0000 L CNN
 F 1 "3k3" H 2720 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2580 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2580 1400 50  0001 C CNN
 F 3 "~" H 2650 1400 50  0001 C CNN
 	1    2650 1400
 	-1   0    0    1   
@@ -42,7 +42,7 @@ U 1 1 5BA7E767
 P 2900 1400
 F 0 "R_CH1" H 2970 1446 50  0000 L CNN
 F 1 "3k3" H 2970 1355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2830 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2830 1400 50  0001 C CNN
 F 3 "~" H 2900 1400 50  0001 C CNN
 	1    2900 1400
 	-1   0    0    1   
@@ -53,7 +53,7 @@ U 1 1 5BA7E78D
 P 5500 1250
 F 0 "RF_up1" H 5570 1296 50  0000 L CNN
 F 1 "3k3" H 5570 1205 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5430 1250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 1250 50  0001 C CNN
 F 3 "~" H 5500 1250 50  0001 C CNN
 	1    5500 1250
 	1    0    0    -1  
@@ -115,7 +115,7 @@ U 1 1 5BA827CB
 P 4750 2650
 F 0 "Rx_down1" H 4820 2696 50  0000 L CNN
 F 1 "2k" H 4820 2605 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4680 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 2650 50  0001 C CNN
 F 3 "~" H 4750 2650 50  0001 C CNN
 	1    4750 2650
 	1    0    0    -1  
@@ -210,7 +210,7 @@ U 1 1 5BB23C65
 P 4450 2350
 F 0 "Rx_up1" H 4520 2396 50  0000 L CNN
 F 1 "1k" H 4520 2305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4380 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 2350 50  0001 C CNN
 F 3 "~" H 4450 2350 50  0001 C CNN
 	1    4450 2350
 	0    -1   -1   0   
@@ -354,7 +354,7 @@ U 1 1 5BB8F884
 P 5500 2750
 F 0 "RF_down1" H 5570 2796 50  0000 L CNN
 F 1 "470" H 5570 2705 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5430 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 2750 50  0001 C CNN
 F 3 "~" H 5500 2750 50  0001 C CNN
 	1    5500 2750
 	1    0    0    -1  
@@ -415,4 +415,48 @@ Wire Wire Line
 Wire Wire Line
 	1750 950  2100 950 
 Connection ~ 2100 950 
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BC3B7D1
+P 6300 2800
+F 0 "MH?" H 6400 2846 50  0000 L CNN
+F 1 "MountingHole" H 6400 2755 50  0000 L CNN
+F 2 "" H 6300 2800 50  0001 C CNN
+F 3 "~" H 6300 2800 50  0001 C CNN
+	1    6300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BC3B8C5
+P 6300 3000
+F 0 "MH?" H 6400 3046 50  0000 L CNN
+F 1 "MountingHole" H 6400 2955 50  0000 L CNN
+F 2 "" H 6300 3000 50  0001 C CNN
+F 3 "~" H 6300 3000 50  0001 C CNN
+	1    6300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BC3B905
+P 6300 3200
+F 0 "MH?" H 6400 3246 50  0000 L CNN
+F 1 "MountingHole" H 6400 3155 50  0000 L CNN
+F 2 "" H 6300 3200 50  0001 C CNN
+F 3 "~" H 6300 3200 50  0001 C CNN
+	1    6300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5BC3B939
+P 6300 3400
+F 0 "MH?" H 6400 3446 50  0000 L CNN
+F 1 "MountingHole" H 6400 3355 50  0000 L CNN
+F 2 "" H 6300 3400 50  0001 C CNN
+F 3 "~" H 6300 3400 50  0001 C CNN
+	1    6300 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
