@@ -85,12 +85,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0104
 U 1 1 5BA89675
-P 7850 2300
-F 0 "#PWR0104" H 7850 2150 50  0001 C CNN
-F 1 "+3.3V" H 7865 2473 50  0000 C CNN
-F 2 "" H 7850 2300 50  0001 C CNN
-F 3 "" H 7850 2300 50  0001 C CNN
-	1    7850 2300
+P 7400 1750
+F 0 "#PWR0104" H 7400 1600 50  0001 C CNN
+F 1 "+3.3V" H 7415 1923 50  0000 C CNN
+F 2 "" H 7400 1750 50  0001 C CNN
+F 3 "" H 7400 1750 50  0001 C CNN
+	1    7400 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -137,8 +137,6 @@ F 3 "" H 10100 850 50  0001 C CNN
 	1    10100 850 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8050 2350 7850 2350
 Wire Wire Line
 	9850 2050 10200 2050
 Wire Wire Line
@@ -213,11 +211,6 @@ Wire Wire Line
 Connection ~ 7550 1850
 Wire Wire Line
 	7550 1850 7550 2350
-Wire Wire Line
-	7850 2350 7850 2300
-Connection ~ 7850 2350
-Wire Wire Line
-	7850 2350 7550 2350
 Wire Wire Line
 	8000 1400 7250 1400
 Wire Wire Line
@@ -326,4 +319,54 @@ F 3 "" H 9850 3300 50  0001 C CNN
 	1    9850 3300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5BC38860
+P 6800 3700
+F 0 "MH1" H 6900 3746 50  0000 L CNN
+F 1 "MountingHole" H 6900 3655 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 6800 3700 50  0001 C CNN
+F 3 "~" H 6800 3700 50  0001 C CNN
+	1    6800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5BC3890A
+P 7550 3700
+F 0 "MH3" H 7650 3746 50  0000 L CNN
+F 1 "MountingHole" H 7650 3655 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 7550 3700 50  0001 C CNN
+F 3 "~" H 7550 3700 50  0001 C CNN
+	1    7550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5BC38954
+P 6800 3950
+F 0 "MH2" H 6900 3996 50  0000 L CNN
+F 1 "MountingHole" H 6900 3905 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 6800 3950 50  0001 C CNN
+F 3 "~" H 6800 3950 50  0001 C CNN
+	1    6800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH4
+U 1 1 5BC38994
+P 7550 3950
+F 0 "MH4" H 7650 3996 50  0000 L CNN
+F 1 "MountingHole" H 7650 3905 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 7550 3950 50  0001 C CNN
+F 3 "~" H 7550 3950 50  0001 C CNN
+	1    7550 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1850 7400 1850
+Wire Wire Line
+	7400 1850 7400 1750
+Wire Wire Line
+	7550 2350 8050 2350
 $EndSCHEMATC
